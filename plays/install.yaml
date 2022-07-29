@@ -1,0 +1,6 @@
+---
+- name: install Apache2
+  hosts: prod
+  remote_user: root
+  roles:
+    - roles/install-apache

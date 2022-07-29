@@ -1,0 +1,6 @@
+---
+- name: Copy application
+  hosts: prod
+  remote_user: prod
+  roles:
+    - roles/copy-application

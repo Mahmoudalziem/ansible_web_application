@@ -1,0 +1,4 @@
+---
+- import_playbook: install.yaml
+- import_playbook: start.yaml
+- import_playbook: copy.yaml

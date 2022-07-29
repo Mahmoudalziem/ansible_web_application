@@ -1,0 +1,5 @@
+---
+- name: copy application >> /var/www/html
+  copy:
+    dest:  /var/www/html/
+    src:  application/
