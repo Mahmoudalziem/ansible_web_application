@@ -1,6 +1,6 @@
 ---
 - name: Copy application
   hosts: prod
-  remote_user: prod
+  remote_user: root
   roles:
     - roles/copy-application
